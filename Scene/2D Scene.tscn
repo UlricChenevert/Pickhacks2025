@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://crhbisi0b4hsr"]
+
+[ext_resource type="Script" path="res://Scripts/Main.gd" id="1_bvpl1"]
+[ext_resource type="PackedScene" uid="uid://d2bi2xwiohyyk" path="res://Scene/land_tile.tscn" id="2_jp5my"]
+
+[node name="Scene" type="Node2D"]
+script = ExtResource("1_bvpl1")
+
+[node name="LandTile7" parent="." instance=ExtResource("2_jp5my")]
+
+[node name="LandTile6" parent="." instance=ExtResource("2_jp5my")]
+
+[node name="LandTile" parent="." instance=ExtResource("2_jp5my")]
+
+[node name="LandTile2" parent="." instance=ExtResource("2_jp5my")]
+
+[node name="LandTile3" parent="." instance=ExtResource("2_jp5my")]
+
+[node name="LandTile4" parent="." instance=ExtResource("2_jp5my")]
+
+[node name="LandTile5" parent="." instance=ExtResource("2_jp5my")]
+
+[node name="LandTile8" parent="." instance=ExtResource("2_jp5my")]
+
+[node name="LandTile9" parent="." instance=ExtResource("2_jp5my")]

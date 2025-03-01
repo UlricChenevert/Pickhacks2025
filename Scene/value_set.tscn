@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://blie0n8a0yvjb"]
+
+[ext_resource type="Script" path="res://Scripts/value_set.gd" id="1_oydso"]
+[ext_resource type="PackedScene" uid="uid://b258wqltvksty" path="res://Scene/Range.tscn" id="2_a2o7w"]
+
+[node name="GoodValues" type="Node2D"]
+script = ExtResource("1_oydso")
+
+[node name="Food" parent="." instance=ExtResource("2_a2o7w")]
+
+[node name="Clothes" parent="." instance=ExtResource("2_a2o7w")]
