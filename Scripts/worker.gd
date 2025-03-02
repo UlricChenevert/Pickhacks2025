@@ -23,14 +23,14 @@ func _ready() -> void:
 	
 
 #
-## Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	decayClothes(delta)
-	decayFood(delta)
-	
-	print(storage.money)
-	print(storage.clothes)
-	print(storage.food)
+### Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta: float) -> void:
+	#decayClothes(delta)
+	#decayFood(delta)
+	#
+	#print(storage.money)
+	#print(storage.clothes)
+	#print(storage.food)
 
 
 func decayClothes(delta: float) -> void:
