@@ -21,9 +21,19 @@ func _ready():
 		
 		# Add it as a child of the current node
 		population.add_child(instance)
+		
+		debugSetAllWorkerAmts()
 
 func _process(delta: float) -> void:
 	productionStage(delta)
+
+func debugSetAllWorkerAmts():
+	var workers = population.get_children()
+	
+	for worker in workers:
+		worker.storage.food = 10000
+		worker.storage.leather = 1000
+		
 
 func consumeStage(delta : float):
 	var workers = population.get_children()
@@ -36,19 +46,29 @@ func productionStage(delta : float):
 	var workers = population.get_children()
 	
 	if (type == ProductionType.tailor):
-		var leatherAmt = 0
-		for worker in workers:
-			leatherAmt += worker.getLeather()
-		
+		#var commonLeatherAmt = 0
+		var goodsAmt = 0
 		#Convert to how many items created
-		var goodsAmt = leatherAmt * LeatherToClothConversion
+		for worker in workers:
+			var leatherAmt = worker.storage.leather
+			var leatherNeeded = round(leatherAmt*LeatherToClothConversion)
+			
+			worker.storage.leather -= leatherNeeded
+			
+			goodsAmt += leatherNeeded
+			
+		print(goodsAmt)
 		
+		#Distribute
 		for worker in workers:
 			if (goodsAmt <= 0):
 				break
 			
 			worker.storage.clothes += 1
 			goodsAmt =- 1
+			
+		print("tailor")
+		
 	
 	elif (type == ProductionType.herder):
 		var cowAmt = resources.cows
@@ -62,7 +82,7 @@ func productionStage(delta : float):
 			
 			worker.storage.leather += 1
 			leatherAmt =- 1
-			
+		
 		var foodAmt = cowAmt * CowToFoodConversion
 		
 		for worker in workers:
@@ -71,16 +91,11 @@ func productionStage(delta : float):
 			
 			worker.storage.leather += 1
 			foodAmt =- 1
-			
+		
+		print("herder")
 	else:
 		print("barren")
-		
-		
-	
-	
-	#for 
-	
-	
+
 func tradeStage(delta : float):
 	var workers = population.get_children()
 	
