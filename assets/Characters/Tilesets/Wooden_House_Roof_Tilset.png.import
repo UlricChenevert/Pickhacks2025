@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cj4emkvphaugj"
-path="res://.godot/imported/Tools.png-5a09be935f52e61e3035863b619725a3.ctex"
+uid="uid://bu0nu8ysugwkk"
+path="res://.godot/imported/Wooden_House_Roof_Tilset.png-dce0696e4b34a97e8727eb46cb3fd1c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Characters/Tools.png"
-dest_files=["res://.godot/imported/Tools.png-5a09be935f52e61e3035863b619725a3.ctex"]
+source_file="res://assets/Characters/Tilesets/Wooden_House_Roof_Tilset.png"
+dest_files=["res://.godot/imported/Wooden_House_Roof_Tilset.png-dce0696e4b34a97e8727eb46cb3fd1c7.ctex"]
 
 [params]
 

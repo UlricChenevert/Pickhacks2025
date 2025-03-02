@@ -22,15 +22,18 @@ func _ready() -> void:
 	values.food.min = 0
 	
 
+func printWorkerData():
+	print("Woker { food: " + str(storage.food) + ", clothes: " + str(storage.clothes) + ", money: " + str(storage.money) + " }")
+
 #
 ## Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	decayClothes(delta)
 	decayFood(delta)
 	
-	print(storage.money)
-	print(storage.clothes)
-	print(storage.food)
+	#print(storage.money)
+	#print(storage.clothes)
+	#print(storage.food)
 
 
 func decayClothes(delta: float) -> void:

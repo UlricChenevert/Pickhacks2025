@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cj4emkvphaugj"
-path="res://.godot/imported/Tools.png-5a09be935f52e61e3035863b619725a3.ctex"
+uid="uid://cupxyle6k4ljn"
+path="res://.godot/imported/Free_Chicken_House.png-259db419c016a6256c32f2796a7af8f5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Characters/Tools.png"
-dest_files=["res://.godot/imported/Tools.png-5a09be935f52e61e3035863b619725a3.ctex"]
+source_file="res://assets/Characters/Objects/Free_Chicken_House.png"
+dest_files=["res://.godot/imported/Free_Chicken_House.png-259db419c016a6256c32f2796a7af8f5.ctex"]
 
 [params]
 
