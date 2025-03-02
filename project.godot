@@ -11,10 +11,10 @@ config_version=5
 [application]
 
 config/name="Pickhacks2025"
-run/main_scene="res://Scene/2D Scene.tscn"
+run/main_scene="res://Scene/background.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-GameStorage="*res://scripts/GameStorage.gd"
+GameStorage="*res://GameStorage.gd"

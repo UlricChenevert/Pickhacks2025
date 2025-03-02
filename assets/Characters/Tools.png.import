@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<<< HEAD:assets/Characters/Tools.png.import
-uid="uid://1lnkvajq1tpg"
+uid="uid://cj4emkvphaugj"
 path="res://.godot/imported/Tools.png-5a09be935f52e61e3035863b619725a3.ctex"
-========
-uid="uid://cob1dbqru2vyx"
-path="res://.godot/imported/Hills.png-740245808f27964ef3fa4435b0d4773d.ctex"
->>>>>>>> 7ce397cb8f645d77a98dae0fe75ced2264c74786:b_assets/Hills.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Characters/Tools.png.import
 source_file="res://assets/Characters/Tools.png"
 dest_files=["res://.godot/imported/Tools.png-5a09be935f52e61e3035863b619725a3.ctex"]
-========
-source_file="res://b_assets/Hills.png"
-dest_files=["res://.godot/imported/Hills.png-740245808f27964ef3fa4435b0d4773d.ctex"]
->>>>>>>> 7ce397cb8f645d77a98dae0fe75ced2264c74786:b_assets/Hills.png.import
 
 [params]
 
