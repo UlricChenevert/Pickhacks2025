@@ -17,4 +17,4 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-GameStorage="*res://GameStorage.gd"
+GameStorage="*res://scripts/GameStorage.gd"
