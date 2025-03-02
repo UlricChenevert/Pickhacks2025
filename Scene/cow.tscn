@@ -50,10 +50,12 @@ animations = [{
 [node name="cow" type="CharacterBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, -4)
 sprite_frames = SubResource("SpriteFrames_trnu1")
 autoplay = "default"
-frame_progress = 0.7744
+frame = 3
+frame_progress = 0.555405
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 5)
+position = Vector2(2, 2)
 shape = SubResource("CircleShape2D_ga2sx")
