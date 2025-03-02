@@ -91,9 +91,3 @@ tile_set = SubResource("TileSet_xi0pq")
 [node name="Workers" type="Node" parent="."]
 
 [node name="Resources" type="Node" parent="."]
-
-[node name="Timer" type="Timer" parent="."]
-wait_time = 3.0
-autostart = true
-
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

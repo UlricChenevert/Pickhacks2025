@@ -31,15 +31,6 @@ func _ready():
 
 func _process(delta: float) -> void:
 	consumeStage(delta)
-	
-
-func _on_timer_timeout() -> void:
-	stageIteration += 1
-	
-	if (stageIteration % stageAmt == 0):
-		productionStage()
-	elif (stageIteration % stageAmt == 1):
-		tradeStage()
 
 func consumeStage(delta : float):
 	var workers = population.get_children()
