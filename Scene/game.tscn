@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://dryjkoywwgx31"]
+[gd_scene load_steps=2 format=3 uid="uid://yik8t3h403v0"]
+
+[ext_resource type="PackedScene" uid="uid://d2bi2xwiohyyk" path="res://Scene/land_tile.tscn" id="1_4ana1"]
 
 [node name="Game" type="Node2D"]
+
+[node name="TestTailor" parent="." instance=ExtResource("1_4ana1")]
+type = 2
