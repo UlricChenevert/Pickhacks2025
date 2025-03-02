@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://btyjvvld1u7fh"]
+
+[ext_resource type="Script" path="res://assets/Characters/worker_cat.gd" id="1_1kspw"]
+[ext_resource type="Texture2D" uid="uid://b7xai5v5wg4qf" path="res://assets/Characters/Basic_Charakter_Spritesheet.png" id="1_dy8i1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uysgg"]
+size = Vector2(4.2597, 0.796093)
+
+[node name="worker cat" type="CharacterBody2D"]
+position = Vector2(0, -1)
+script = ExtResource("1_1kspw")
+move_speed = null
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.443468, 0.382634)
+texture = ExtResource("1_dy8i1")
+hframes = 4
+vframes = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.140445, 1.95317)
+rotation = -3.14159
+scale = Vector2(1.00497, -2.39463)
+shape = SubResource("RectangleShape2D_uysgg")
