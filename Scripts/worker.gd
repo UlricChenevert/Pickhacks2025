@@ -26,17 +26,15 @@ func printWorkerData():
 	print("Woker { food: " + str(storage.food) + ", clothes: " + str(storage.clothes) + ", money: " + str(storage.money) + " }")
 
 #
-func getFood():
-	return storage.food
+## Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	decayClothes(delta)
+	decayFood(delta)
 	
-func getLeather():
-	return storage.leather
-	
-func getClothes():
-	return storage.clothes
-	
-func getMoney():
-	return storage.money
+	print(storage.money)
+	print(storage.clothes)
+	print(storage.food)
+
 
 func decayClothes(delta: float) -> void:
 	storage.clothes -= delta * clothingDecay
