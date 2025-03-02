@@ -22,6 +22,9 @@ func _ready() -> void:
 	values.food.min = 0
 	
 
+func printWorkerData():
+	print("Woker { food: " + str(storage.food) + ", clothes: " + str(storage.clothes) + ", money: " + str(storage.money) + " }")
+
 #
 func getFood():
 	return storage.food

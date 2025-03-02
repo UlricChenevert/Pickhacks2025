@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<<< HEAD:assets/Characters/Free_Cow_Sprites.png.import
-uid="uid://dgivww736ffli"
+uid="uid://7sdombhryxve"
 path="res://.godot/imported/Free_Cow_Sprites.png-65a406c0d0f2296c225feabfa6905e63.ctex"
-========
-uid="uid://wsxu6fdwxuly"
-path="res://.godot/imported/Bitmask references 2.png-825b36a31b6f5ce926b1e24ace6ee749.ctex"
->>>>>>>> 7ce397cb8f645d77a98dae0fe75ced2264c74786:b_assets/Bitmask references 2.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Characters/Free_Cow_Sprites.png.import
 source_file="res://assets/Characters/Free_Cow_Sprites.png"
 dest_files=["res://.godot/imported/Free_Cow_Sprites.png-65a406c0d0f2296c225feabfa6905e63.ctex"]
-========
-source_file="res://b_assets/Bitmask references 2.png"
-dest_files=["res://.godot/imported/Bitmask references 2.png-825b36a31b6f5ce926b1e24ace6ee749.ctex"]
->>>>>>>> 7ce397cb8f645d77a98dae0fe75ced2264c74786:b_assets/Bitmask references 2.png.import
 
 [params]
 
