@@ -31,9 +31,9 @@ func _process(delta: float) -> void:
 	decayClothes(delta)
 	decayFood(delta)
 	
-	print(storage.money)
-	print(storage.clothes)
-	print(storage.food)
+	#print(storage.money)
+	#print(storage.clothes)
+	#print(storage.food)
 
 
 func decayClothes(delta: float) -> void:

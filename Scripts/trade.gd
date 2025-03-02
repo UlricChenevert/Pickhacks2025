@@ -11,12 +11,12 @@ var production_interval: float = 2.0
 func produce_leather(delta: float):
 	production_timer -= delta
 	
-	if production_timer <= 0:
-		if cows >= cows_needed_for_leather:
-			var leather_produced = min(cows /cows_needed_for_leather, cows) * leather_per_cow
-			leather += leather_produced
-			cows -= leather_produced
-			print("Produced ", leather_produced, " leather from cows.")
-		production_timer = production_interval
+	#if production_timer <= 0:
+		#if cows >= cows_needed_for_leather:
+			#var leather_produced = min(cows /cows_needed_for_leather, cows) * leather_per_cow
+			#leather += leather_produced
+			#cows -= leather_produced
+			#print("Produced ", leather_produced, " leather from cows.")
+		#production_timer = production_interval
 		
 		

@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://d2bi2xwiohyyk"]
+[gd_scene load_steps=5 format=4 uid="uid://d2bi2xwiohyyk"]
 
 [ext_resource type="Script" path="res://Scripts/land_tile.gd" id="1_0a7xb"]
 [ext_resource type="Texture2D" uid="uid://m7oopndg2u5r" path="res://assets/Characters/Tilesets/Grass.png" id="2_ep6ad"]
