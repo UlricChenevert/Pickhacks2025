@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://scripts/resources.gd" id="1_sjsk4"]
 [ext_resource type="Texture2D" uid="uid://m7oopndg2u5r" path="res://assets/Tilesets/Grass.png" id="1_ukiub"]
-[ext_resource type="Texture2D" uid="uid://dspq04ud1dq1e" path="res://assets/Characters/Objects/Basic_Grass_Biom_things.png" id="3_3br47"]
-[ext_resource type="Texture2D" uid="uid://dxw58yul3nn7r" path="res://assets/Characters/Objects/Paths.png" id="5_xrxsd"]
+[ext_resource type="Texture2D" uid="uid://dspq04ud1dq1e" path="res://assets/Objects/Basic_Grass_Biom_things.png" id="3_3br47"]
+[ext_resource type="Texture2D" uid="uid://dxw58yul3nn7r" path="res://assets/Objects/Paths.png" id="5_xrxsd"]
 [ext_resource type="Texture2D" uid="uid://c34q11qm6jnyk" path="res://assets/Tilesets/Hills.png" id="6_ux1l3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wo11b"]

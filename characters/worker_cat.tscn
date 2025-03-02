@@ -12,8 +12,8 @@ script = ExtResource("1_aiat8")
 move_speed = null
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(10.865, -9.37453)
-scale = Vector2(-0.00923892, -0.00797154)
+position = Vector2(22, -32)
+scale = Vector2(-5.66609, -0.00797154)
 texture = ExtResource("2_cpr30")
 hframes = 4
 vframes = 4
