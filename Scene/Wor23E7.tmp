@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://duov82m7qicg0"]
-
-[ext_resource type="Script" path="res://Scene/worker.gd" id="1_gxxdl"]
-[ext_resource type="PackedScene" uid="uid://ccvcechbj0tvr" path="res://Scene/storage.tscn" id="2_w300j"]
-
-[node name="Worker" type="Node2D"]
-script = ExtResource("1_gxxdl")
-
-[node name="Storage" parent="." instance=ExtResource("2_w300j")]

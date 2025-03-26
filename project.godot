@@ -10,19 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Pickhacks2025"
-run/main_scene="res://Scene/game.tscn"
+config/name="Pickhacks Redo 2025"
+run/main_scene="res://Scenes/gameScene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
-
-[autoload]
-
-GameStorage="*res://GameStorage.gd"
 
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
-config/name="V2"
-run/main_scene="res://Scene/game.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"

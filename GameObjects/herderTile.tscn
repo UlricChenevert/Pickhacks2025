@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=4 uid="uid://dpsflu7iy0js2"]
+
+[ext_resource type="TileSet" uid="uid://d2n4ovmvo6g58" path="res://Assets/Tilesets/groundTiles.tres" id="1_kawkg"]
+
+[node name="HerderTile" type="Node2D"]
+scale = Vector2(2, 2)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAAAAAAAAAbABsAAAABAAAAAAAcABwAAAAAAAEAAAAbABwAAAACAAAAAAAdABsAAAAAAAIAAAAbABwAAAAAAAMAAAAbABwAAAAAAAQAAAAbAB0AAAABAAQAAAAfABsAAAACAAQAAAAdAB0AAAAEAAEAAAAZACAAAAAEAAAAAAAZAB8AAAACAAMAAAAdABwAAAACAAIAAAAdABwAAAACAAEAAAAdABwAAAADAAIAAAAZABsAAAADAAMAAAAZABwAAAADAAAAAAAYABoAAAAEAAQAAAAgABcAAAA=")
+tile_set = ExtResource("1_kawkg")

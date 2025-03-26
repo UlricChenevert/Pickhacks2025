@@ -1,0 +1,70 @@
+[gd_scene load_steps=9 format=3 uid="uid://da7d6feu85ukm"]
+
+[ext_resource type="PackedScene" uid="uid://dolr760n0vwqb" path="res://GameObjects/landTile.tscn" id="1_8lg7o"]
+[ext_resource type="PackedScene" uid="uid://dpsflu7iy0js2" path="res://GameObjects/herderTile.tscn" id="2_inod7"]
+[ext_resource type="PackedScene" uid="uid://cfnk63kvi2u0s" path="res://GameObjects/tailorTile.tscn" id="3_sghvc"]
+[ext_resource type="PackedScene" uid="uid://u3vxom2jafmf" path="res://GameObjects/marketTile.tscn" id="4_ygbv5"]
+[ext_resource type="PackedScene" uid="uid://j3dgj4shjr5f" path="res://GameObjects/cow.tscn" id="5_6avmm"]
+[ext_resource type="Script" path="res://Scripts/AnimalControl.gd" id="5_m08yc"]
+[ext_resource type="Script" path="res://Scripts/WorkerControl.gd" id="7_j4mkk"]
+[ext_resource type="PackedScene" uid="uid://ce84l81ljwr26" path="res://GameObjects/Family.tscn" id="8_s7wsf"]
+
+[node name="GameScene" type="Node2D"]
+
+[node name="LandNodes" type="Node" parent="."]
+
+[node name="LandTile" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+
+[node name="HerderTile" parent="LandNodes/LandTile" instance=ExtResource("2_inod7")]
+
+[node name="LandTile2" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+position = Vector2(320, 0)
+
+[node name="TailorTile" parent="LandNodes/LandTile2" instance=ExtResource("3_sghvc")]
+
+[node name="LandTile3" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+position = Vector2(640, 0)
+
+[node name="LandTile4" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+position = Vector2(0, 320)
+
+[node name="LandTile5" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+position = Vector2(320, 320)
+
+[node name="MarketTile" parent="LandNodes/LandTile5" instance=ExtResource("4_ygbv5")]
+
+[node name="LandTile6" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+position = Vector2(640, 320)
+
+[node name="TailorTile" parent="LandNodes/LandTile6" instance=ExtResource("3_sghvc")]
+
+[node name="LandTile7" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+position = Vector2(0, 640)
+
+[node name="LandTile8" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+position = Vector2(320, 640)
+
+[node name="LandTile9" parent="LandNodes" instance=ExtResource("1_8lg7o")]
+position = Vector2(640, 640)
+
+[node name="HerderTile" parent="LandNodes/LandTile9" instance=ExtResource("2_inod7")]
+
+[node name="AnimalNodes" type="Node" parent="."]
+script = ExtResource("5_m08yc")
+
+[node name="Cow" parent="AnimalNodes" instance=ExtResource("5_6avmm")]
+position = Vector2(56, 64)
+
+[node name="Cow2" parent="AnimalNodes" instance=ExtResource("5_6avmm")]
+position = Vector2(40, 120)
+
+[node name="Cow3" parent="AnimalNodes" instance=ExtResource("5_6avmm")]
+position = Vector2(232, 280)
+
+[node name="Cow4" parent="AnimalNodes" instance=ExtResource("5_6avmm")]
+position = Vector2(248, 280)
+
+[node name="FamilyNodes" type="Node" parent="."]
+script = ExtResource("7_j4mkk")
+
+[node name="Family" parent="FamilyNodes" instance=ExtResource("8_s7wsf")]

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bor0aofceta75"]
+
+[ext_resource type="Script" path="res://Scripts/Data/workerData.gd" id="1_2d4fr"]
+[ext_resource type="SpriteFrames" uid="uid://dxcmpcd5nsx2n" path="res://Assets/Characters/BunnyMovement.tres" id="1_gdhda"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j1wkh"]
+size = Vector2(10, 10)
+
+[node name="Worker" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_2d4fr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1_gdhda")
+animation = &"Idle Down"
+frame_progress = 0.304227
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_j1wkh")

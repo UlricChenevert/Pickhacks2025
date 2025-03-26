@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=4 uid="uid://cfnk63kvi2u0s"]
+
+[ext_resource type="TileSet" uid="uid://d2n4ovmvo6g58" path="res://Assets/Tilesets/groundTiles.tres" id="1_j0lrf"]
+
+[node name="TailorTile" type="Node2D"]
+scale = Vector2(2, 2)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAABAAMAAAAeACMAAAABAAIAAAAeACIAAAACAAEAAAAdAB8AAAAAAAMAAAAgABUAAAAEAAEAAAAhABcAAAAAAAAAAAAbACIAAAAAAAEAAAAbACMAAAACAAMAAAAYAB0AAAAAAAQAAAAUABoAAAAEAAQAAAAeABkAAAAEAAAAAAAhABYAAAACAAIAAAAdACAAAAAEAAMAAAAeABgAAAA=")
+tile_set = ExtResource("1_j0lrf")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bipfpp25n2cba"]
+
+[ext_resource type="Script" path="res://Scripts/Data/familyData.gd" id="1_cbckb"]
+[ext_resource type="PackedScene" uid="uid://bor0aofceta75" path="res://GameObjects/worker.tscn" id="2_icfbi"]
+
+[node name="Family" type="Node2D"]
+script = ExtResource("1_cbckb")
+
+[node name="Worker" parent="." instance=ExtResource("2_icfbi")]

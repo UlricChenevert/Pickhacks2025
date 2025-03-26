@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=4 uid="uid://u3vxom2jafmf"]
+
+[ext_resource type="TileSet" uid="uid://d2n4ovmvo6g58" path="res://Assets/Tilesets/groundTiles.tres" id="1_gbgga"]
+
+[node name="MarketTile" type="Node2D"]
+scale = Vector2(2, 2)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAACAAIAAAAiACYAAAACAAEAAAAiACUAAAAAAAQAAAAgABMAAAABAAQAAAAhABMAAAACAAQAAAAiABMAAAAEAAEAAAAlABYAAAAEAAIAAAAlABcAAAAAAAAAAAAYABoAAAADAAMAAAAYACAAAAAAAAIAAAAXACEAAAA=")
+tile_set = ExtResource("1_gbgga")
